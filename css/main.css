@@ -1,0 +1,154 @@
+@tailwind base;
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+ul {
+    list-style: square;
+}
+
+p {
+    text-align: justify;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+#all {
+    background: #EEEEEE;
+    color: #660066;
+
+}
+
+.welcome {
+    text-align: center;
+    margin: 1px;
+    font-size: 26px;
+    line-height: 1cm;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.buttonmenu {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+
+.header {
+    background: url(../images/tlo1.png);
+    width: 1097px; 
+    height: 200px;
+    float: right;
+    margin: 4px;
+    border: solid black 2px;
+}
+
+.contenttop {
+    width: 1450px;
+    height: 200px;
+
+}
+
+.contentmiddle {
+    width: 1453px; 
+    height: 820px; 
+    float: left; 
+}
+
+
+.bside { 
+    width: 200px;  
+    float: right; 
+    /*    padding: 10px;*/
+    margin: 2px;
+
+}
+
+.button {
+    width: 192px;
+    float: right;
+    /*    border: solid black 1px;*/
+    display: table;
+    vertical-align: middle;
+    margin: 2px;
+    font-size: 1.3em;
+
+}
+
+#shadow {
+    text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+#srodek {
+    display: table;
+    vertical-align: middle;
+}
+
+
+.separatebutton {
+    width: 190px;
+    height: 50px;
+    float: right;
+    display: table;
+    vertical-align: middle;
+    margin: 4px;
+}
+
+
+
+.main {
+    background: #E8E5E5;
+    width: 877px; 
+    height: 750px;
+    float: right;
+    padding: 10px;
+    margin: 4px;
+    box-shadow: black 0.2em 0.2em 1em, black 0.3em 0.3em 2.2em /*,black -0.3em -0.3em 0.1em*/;
+    display: table;
+    vertical-align: middle;
+
+}
+
+.linki {
+    display: table;
+    vertical-align: middle;
+}
+
+
+.footer {
+    background: #E8E5E5;
+    width: 1102px; 
+    height: 25px;
+    float: right;
+    text-align: center;
+    margin: 4px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.logo {
+    background-image: url(../images/tlo1.png);
+}
+
+.mymain {
+    background: #E8E5E5;
+}
